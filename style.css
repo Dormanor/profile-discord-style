@@ -209,11 +209,19 @@ html {
   margin-bottom: 13px;
   font-weight: 600;
   font-size: 1.3rem;
-  display: flex;
-  flex-direction: row;
+  flex-direction:unset;
   align-items: center;
 }
+.userid{
+  display:flex;
+  color: gray;
+  cursor:default;
+  font-size: ;
+}
+hr{
+  background-color: white;
 
+}
 .card-body .profile-body .username span {
   color: #b9bbbe;
 }
